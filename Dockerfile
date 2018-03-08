@@ -10,15 +10,13 @@ LABEL version "1.0.0"
 # config
 ENV DEBIAN_FRONTEND noninteractive
 
-
-# install Java
+# install latex
 RUN apt-get update \
   && apt-get install -y \
     wget  \
     git \
     make \
     texlive-full \
-  # remove documentation for LaTeX
   && apt-get --purge remove -y .\*-doc$ \
   && apt-get clean -y \
   && rm -rf /var/lib/apt/lists/*
