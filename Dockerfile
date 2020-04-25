@@ -2,7 +2,7 @@
 FROM alpine:3.11
 
 # argument
-ARG VERSION="20190410-r12"
+ARG VERSION="20190410-r6"
 
 # labels
 LABEL maintainer "Daniel Muehlbachler daniel.muehlbachler@niftyside.com"

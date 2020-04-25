@@ -1,8 +1,8 @@
 # LaTeX for Docker
 
-## 20190410-r12
+## 20190410-r6
 - move to alpine base
-- texlive-full 20190410-r12
+- texlive-full 20190410-r6
 
 ## 2019.20190830-1
 - texlive-full 2019.20190830-1
