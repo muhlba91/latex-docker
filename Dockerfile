@@ -2,7 +2,7 @@
 FROM debian:testing
 
 # argument
-ARG VERSION="2019.20190830-1"
+ARG VERSION="2020.20200417-1"
 
 # labels
 LABEL maintainer "Daniel Muehlbachler daniel.muehlbachler@niftyside.com"
