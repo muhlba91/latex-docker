@@ -1,7 +1,8 @@
 # LaTeX for Docker
 
-## 2020.20200417-1
-- texlive-full 2020.20200417-1
+## 20190410-r12
+- move to alpine base
+- texlive-full 20190410-r12
 
 ## 2019.20190830-1
 - texlive-full 2019.20190830-1

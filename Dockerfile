@@ -1,8 +1,8 @@
 # basic container
-FROM debian:testing
+FROM alpine:3.11
 
 # argument
-ARG VERSION="2020.20200417-1"
+ARG VERSION="20190410-r12"
 
 # labels
 LABEL maintainer "Daniel Muehlbachler daniel.muehlbachler@niftyside.com"
@@ -11,16 +11,14 @@ LABEL description "This container serves a LaTeX installation."
 LABEL version $VERSION
 
 # config
-ENV DEBIAN_FRONTEND noninteractive
 ENV LATEX_VERSION $VERSION
 
 # install latex
-RUN apt-get update \
-  && apt-get install -y \
+RUN apk update \
+  && apk add --no-cache biber \
     wget  \
     git \
     make \
     texlive-full=$LATEX_VERSION \
-  && apt-get --purge remove -y .\*-doc$ \
-  && apt-get clean -y \
-  && rm -rf /var/lib/apt/lists/*
+  && rm -rf /var/cache/apk/*
+
