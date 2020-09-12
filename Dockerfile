@@ -1,11 +1,11 @@
 # basic container
-FROM alpine:3.11
+FROM alpine:edge
 
 # argument
-ARG VERSION="20190410-r6"
+ARG VERSION="20200406-r2"
 
 # labels
-LABEL maintainer "Daniel Muehlbachler daniel.muehlbachler@niftyside.com"
+LABEL maintainer "Daniel Muehlbachler-Pietrzykowski daniel.muehlbachler@niftyside.com"
 LABEL name "LaTeX on Docker"
 LABEL description "This container serves a LaTeX installation."
 LABEL version $VERSION

@@ -1,5 +1,9 @@
 # LaTeX for Docker
 
+## 20200406-r2
+- use alpine edge
+- texlive-full 20200406-r2
+
 ## 20190410-r6
 - move to alpine base
 - texlive-full 20190410-r6
