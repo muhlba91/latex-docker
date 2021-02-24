@@ -1,4 +1,7 @@
-# LaTeX for Docker
+# CHANGELOG
+
+## 20200406-r8
+- texlive-full 20200406-r8
 
 ## 20200406-r2
 - use alpine edge
@@ -16,4 +19,3 @@
 
 ## 1.0.0
  - initial version
-

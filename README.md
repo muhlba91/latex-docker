@@ -1,10 +1,10 @@
 # LaTeX for Docker
 
+[![](https://img.shields.io/github/workflow/status/muhlba91/latex-docker/Release?style=for-the-badge)](https://github.com/muhlba91/latex-docker/actions)
+[![](https://img.shields.io/github/release-date/muhlba91/latex-docker?style=for-the-badge)](https://github.com/muhlba91/latex-docker/releases)
+[![](https://img.shields.io/docker/v/muhlba91/latex?style=for-the-badge)](https://hub.docker.com/r/muhlba91/latex)
+
 This image provides a [LaTeX](https://www.latex-project.org/) installation on *Docker*.
-
-## Project Status
-
-[![Build Status](https://travis-ci.org/muhlba91/latex-docker.svg?branch=master)](https://travis-ci.org/muhlba91/latex-docker)
 
 ## Use cases
 
